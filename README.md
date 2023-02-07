@@ -8,6 +8,13 @@ After you move a piece, the square on which you moved will be highlighted with a
 The game is won by checkmating the opponent’s king, which may be done by threatening to take the square occupied by it (a.k.a. “check”) on the next move. Once the king has nowhere to move after a “check,” the game is over!
 As a chess player, I decided to build this program for the purpose of using it to recreate infamous chess games and play them through one-by-one. I also wanted to bring nostalgia to the table by offering the option to play single-screen multiplayer chess!
 
+![image](https://user-images.githubusercontent.com/50674368/217136153-fcc8cc51-fa13-48cd-af8c-a0af20e0a312.png)
+
+![image](https://user-images.githubusercontent.com/50674368/217136412-2d35c3b7-17a6-4920-ba97-dff945c5bf97.png)
+
+![image](https://user-images.githubusercontent.com/50674368/217136518-030441f9-e223-4767-87f2-51eefbba2956.png)
+
+![image](https://user-images.githubusercontent.com/50674368/217136802-52370ca2-192c-4f50-a17b-6fbb97a2987e.png)
 
 ### Domain Objects
 Chess Board – The Chess Board hosts the playing field for chess games, allowing chess pieces to move freely around the board (albeit following the standard rules of chess). A Chess Board is created when a new game is created, or when a game is loaded from a saved file from disk. The board can be edited in the settings panel (e.g., changing the color of the squares, or enabling board rotations, etc.).
