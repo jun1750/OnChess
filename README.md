@@ -1,4 +1,5 @@
-The OnChess chess program is a multiplayer chess program that allows users to play new games, open previous games, save current games, and create custom games.
+### About OnChess
+The OnChess chess program is a single-screen multiplayer chess program that allows users to play new games, open previous games, save current games, and create custom games.
 
 There are two ways of moving a chess piece in the OnChess program: the Click-Click method, and the Click-and-Drag method.
 Click-Click – Click over a chess piece you wish to move and click again on one of the highlighted squares.
@@ -9,7 +10,6 @@ As a chess player, I decided to build this program for the purpose of using it t
 
 
 ### Domain Objects
-
 Chess Board – The Chess Board hosts the playing field for chess games, allowing chess pieces to move freely around the board (albeit following the standard rules of chess). A Chess Board is created when a new game is created, or when a game is loaded from a saved file from disk. The board can be edited in the settings panel (e.g., changing the color of the squares, or enabling board rotations, etc.).
 
 Customizer Board – The Customizer Board is a board that allows for users to pre-set their desired game of chess, which is executed by placing any type of piece (elucidated below) anywhere on the board. Users may create any type of chess piece in any square of the board, edit/change the piece in a square to transition over to the next piece in line, and finally delete the piece—rendering the square empty once again.
@@ -44,5 +44,5 @@ When finished, users may click File -> Save to download your customized game fil
 
 
 
-### More
-The pre-populated fields on a standard board are: 8 pawns, 2 rooks, 2 bishops, 2 knights, a queen, and a king. Created for each side at the start of the game, each of these pieces are deleted when pieces from the opponent’s side overtakes the same square (i.e., the piece is moved to a square that is already occupied by a piece from the opponent). Individual piece types have their respective functions that serve as the “edit” portion of the project.
+### Pre-populated Fields
+The pre-populated fields on a standard board are: 8 pawns, 2 rooks, 2 bishops, 2 knights, a queen, and a king. Created for each side at the start of the game, each of these pieces are deleted when pieces from the opponent’s side overtakes the same square (i.e., the piece is moved to a square that is already occupied by a piece from the opponent).
